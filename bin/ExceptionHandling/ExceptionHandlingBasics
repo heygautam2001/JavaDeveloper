@@ -15,5 +15,19 @@ iii. Exception are of two types:
      
 
 Wrong concept : compile time exception occurs at compile time and runtime exeception occurs at run time.
-Right concept : All the exception are occurs at runtime.
-          
+Right concept : All the exception are occurs at runtime. 
+
+
+Whwnever there is exception , the method in which exception occurs will create an object and that object will store three things
+1. Exception Name 
+2. Description
+3. stack trace
+
+We can handle exception by using five keywords 
+ 1. try - catch
+ 2. finally  
+ 3. throw
+ 4. throws
+ 
+ Throws : throws keywoird is used to declare an exception . it gives information to the caller method that there may occur an exception , so it is better
+ for the caller method to provide an exception handling code so that the normal flow of the program is maintained.          
