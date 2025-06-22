@@ -1,0 +1,19 @@
+1. defference between EWxceoption and Error
+
+1. Exception :
+i. Exceptions occurs because of program.
+ii. Exceptions are recoverable means that programmers can handle them using try-catch block.
+iii. Exception are of two types:
+    1. Compile time exceptions or checked exceptions.
+    2. Runtime Exceptions or Unchecked Exceptions.
+ 
+2.Error :
+ i. Error occurs because of lack of system resources.
+ ii. Error are  not reecoverable , programmers can handle them to their level
+ iii. Error are only of one types:
+     1. Runtime Exceptions or Unchecked Exception.
+     
+
+Wrong concept : compile time exception occurs at compile time and runtime exeception occurs at run time.
+Right concept : All the exception are occurs at runtime.
+          
